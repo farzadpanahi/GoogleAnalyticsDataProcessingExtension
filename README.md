@@ -24,7 +24,7 @@ SSRS Paths:
 * ``<CONF DIR>`` = ``<RERPORT SERVER DIR>\Reporting Services\ReportServer`` e.g. ``C:\Program Files\Microsoft SQL Server\MSRS11.MSSQLSERVER\Reporting Services\ReportServer``
 
 
-1. Copy all dll files from [build](https://github.com/farzadpanahi/GoogleAnalyticsDataProcessingExtension/tree/master/build) folder (or compile from [src](https://github.com/farzadpanahi/GoogleAnalyticsDataProcessingExtension/tree/master/src)) to ``<BIN DIR>``.
+1. Download [the latest release](https://github.com/farzadpanahi/GoogleAnalyticsDataProcessingExtension/releases) (or compile from [src](https://github.com/farzadpanahi/GoogleAnalyticsDataProcessingExtension/tree/master/src)) and copy all the .dlls to ``<BIN DIR>``.
 
 2. Modify ``<CONF DIR>\RSReportDesigner.config``. 
 
