@@ -145,7 +145,7 @@ SSRS Paths:
 { "CertificateFilePath": "c:\\private_keys\\1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a-privatekey.p12", "CertificatePassword": "notasecret", "ServiceAccountEmail": "123456789012@developer.gserviceaccount.com" }
 ```
   
-3. Explicitly set the credentials for the Data Source to the credentials of the SSRS service. This is important. If you don't do this SSRS will use "execution account" to access the private key and most probebly it will fail.
+3. Explicitly set the credentials for the Data Source to the credentials of the SSRS service. This is important. If you don't do this SSRS will use "execution account" to access the private key and most probably it will fail.
 4. Give read access to this user for the private key of the certificate. You can do this by opening a MMC and adding Certificates snap-in. Find your certificate: Right-click -> All Tasks -> Manage Private Keys.
 5. The query syntax is JSON. You just need to createt a JSON with the parameters you need and paste it into the Query box of the Data Set in your report project. JSON query syntax:
 
