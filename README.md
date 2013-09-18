@@ -9,11 +9,11 @@ I am using OAuth 2 to authorize requests to Google Core Reporting API (v3). You 
 
 ### Installation
 
-Unfortunatelly I didn't get a chance to write a installer for this project. *I encourage anyone interested to write one* :> to help reduce the installation headache.
+Unfortunately I didn't get a chance to write a installer for this project. *I encourage anyone interested to write one* :> to help reduce the installation headache.
 
 Basically to deploy a data processing extension we need to copy the required dlls to specific folders and modify couple of configuration files. You can read more about the deployment [here](http://msdn.microsoft.com/en-us/library/ms155104.aspx).
 
-The path to these files are different depending on whether you want to use this extension just in Visual Studio for development purposes or you want to use it in your SSRS server. I have the following placeholders to make the instructions useable for both Visual Studio and SSRS deployment.
+The path to these files are different depending on whether you want to use this extension just in Visual Studio for development purposes or you want to use it in your SSRS server. I have the following place-holders to make the instructions usable for both Visual Studio and SSRS deployment.
 
 Visual Studio Paths:
 * ``<BIN DIR>`` = ``<VISUAL STUDIO DIR>\Common7\IDE\PrivateAssemblies`` e.g. ``C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies``.
