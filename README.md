@@ -2,7 +2,7 @@
 
 You can use this custom [data processing extension](http://msdn.microsoft.com/en-us/library/ms152816.aspx) to connect to [Google Analytics API](https://developers.google.com/analytics/devguides/) and fetch data into a Data Set in Microsoft SSRS to create your report based on data from Google Analytics.
 
-After you copy the dlls and apply the neccessary changes to config files, you will see Google Analytics as a new Data Source type added to the list of available types drop-down list. You can then create a Google Analytics Data Source under your report project.  
+After you copy the dlls and apply the necessary changes to config files, you will see Google Analytics as a new Data Source type added to the list of available types drop-down list. You can then create a Google Analytics Data Source under your report project.  
 
 ### Google Analytics Authorization
 I am using OAuth 2 to authorize requests to Google Core Reporting API (v3). You need to follow the instructions [here](https://developers.google.com/analytics/devguides/reporting/core/v3/gdataAuthorization) to create a Service Account access to Google Reporting APIs. You need to download the generated certificate which also includes a private key.
